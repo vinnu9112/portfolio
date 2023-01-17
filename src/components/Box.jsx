@@ -8,7 +8,7 @@ function Box(props) {
         </div>
       <div className="s-b-text">
         <p>{props.text}</p>
-        <a href={props.link} target='_blank' className='cv-btn'>{props.button}</a>
+        <a href={props.link} target='_blank' rel="noreferrer" className='cv-btn'>{props.button}</a>
       </div>
     </div>
   )
