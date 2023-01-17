@@ -8,8 +8,8 @@ function App() {
     <>
       <Header/>
       <div className="f-heading">
-        <h1>Features</h1>
-        <p>Here are some features of the software</p>
+        <h1>About Me</h1>
+        <p>Introduction</p>
       </div>
       <Features/>
       <Services/> 

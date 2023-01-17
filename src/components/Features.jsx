@@ -1,5 +1,6 @@
 import React from 'react'
 import featureimage from '../images/Frame 19.png'
+import pdf from '../images/resume.pdf'
 
 function Features() {
   return (
@@ -8,10 +9,14 @@ function Features() {
         <img src={featureimage} alt="feature-image" />
       </div>
       <div className="features-text">
-        <h1>Features</h1>
-        <h3>Here are some features of <span>this</span> software</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eaque a voluptates ratione temporibus esse inventore, beatae sequi, quia labore ipsum non rem? Optio aperiam quisquam veritatis natus dolorem ipsam!</p>
-        <button>See More</button>
+        <h1>About Me</h1>
+        <h3>Introduction</h3>
+        <p>I have completed my Bachelor of Engineer in Electrical Engineering from Marathwada Mitra Mandal's College of Engineering, Pune. My aggregate CGPA was 9.12. I am skilled in C/C++ at an intermediate level and also familiar to the technologies like NodeJS and ReactJs.</p>
+        <div className="header-btns">
+        <a download href={pdf} className='cv-btn2'>
+        <button> Download CV </button>
+        </a>
+        </div>
       </div>
     </div>
   )

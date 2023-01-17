@@ -6,11 +6,12 @@ function Header() {
     <div id='main'>
       <Navbar/>
       <div className="name">
-        <h1>It's a <span>React JS</span> Website</h1>
-        <p className='details'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et quae iusto sed, ad obcaecati beatae soluta labore velit natus sapiente porro modi molestias minima magni dicta? Nulla libero sed repudiandae.</p>
+        <h1>Hello, my name is <span>Vinayak Nandikole</span></h1>
+        <h2 className="details">B.E. in Electrical Engineering</h2>
+        <p className='details'>Problem Solver, Collaborative, Critical Thinker, Determined, Adaptive Learner.</p>
         <div className="header-btns">
-            <a href="#" className='cv-btn'>Hire Me</a>
-            <a href="#" className='cv-btn1'>Download</a>
+            <a href="https://github.com/vinnu9112" target='_blank' className='cv-btn'>GitHub</a>
+            <a href="https://www.linkedin.com/in/vinayak-nandikole" target='_blank' className='cv-btn1'>LinkedIn</a>
         </div>
       </div>
       <div className="arrow"></div>
