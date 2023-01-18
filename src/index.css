@@ -134,7 +134,7 @@ nav .menu-btn,
 }
 .cv-btn2{
   width:130px;
-  height: 40px;
+  height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -344,6 +344,9 @@ width: 500px;
   align-items: center;
   text-align: center;
   flex-direction: column;
+}
+.s-b-text h3{
+  margin-top: -28px;
 }
 .s-b-text p{
   margin: 0px;

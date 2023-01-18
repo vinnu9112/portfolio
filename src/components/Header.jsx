@@ -10,8 +10,8 @@ function Header() {
         <h2 className="details">B.E. in Electrical Engineering</h2>
         <p className='details'>Problem Solver, Collaborative, Critical Thinker, Determined, Adaptive Learner.</p>
         <div className="header-btns">
-            <a href="https://github.com/vinnu9112" target='_blank' className='cv-btn'>GitHub</a>
-            <a href="https://www.linkedin.com/in/vinayak-nandikole" target='_blank' className='cv-btn1'>LinkedIn</a>
+            <a href="https://github.com/vinnu9112" target='_blank' rel="noreferrer" className='cv-btn'>GitHub</a>
+            <a href="https://www.linkedin.com/in/vinayak-nandikole" target='_blank' rel="noreferrer" className='cv-btn1'>LinkedIn</a>
         </div>
       </div>
       <div className="arrow"></div>
