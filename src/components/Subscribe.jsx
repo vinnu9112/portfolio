@@ -8,7 +8,7 @@ function Subscribe() {
     <div id='subscribe'>
       <h3>Contact Me</h3>
       <div className="subscribe-img">
-        <a href="https://www.instagram.com/vinayak.9112/?hl=en" target='_blank' rel='noreferrer'>
+        <a href="https://www.instagram.com/vinayak.nandikole" target='_blank' rel='noreferrer'>
         <img className='img1' src={img1} alt="img1" />
         </a>
         <a href="mailto:vinayaknandikole2158gmail.com" target="_blank" rel='noreferrer'>
