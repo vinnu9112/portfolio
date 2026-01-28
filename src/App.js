@@ -1,19 +1,21 @@
 import Header from "./components/Header";
-import Features from "./components/Features";
-import Services from "./components/Services";
-import Subscribe from "./components/Subscribe";
+import AboutMe from "./components/AboutMe";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import Achievements from "./components/Achievements";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <>
-      <Header/>
-      <div className="f-heading">
-        <h1>About Me</h1>
-        <p>Introduction</p>
-      </div>
-      <Features/>
-      <Services/> 
-      <Subscribe/>
+      <Header />
+      <AboutMe />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Achievements />
+      <Contact />
     </>
   );
 }
